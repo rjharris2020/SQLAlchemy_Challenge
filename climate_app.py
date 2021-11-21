@@ -32,8 +32,7 @@ def home():
         f"Available Routes:<br/>"
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
-        f"/api/v1.0/<start><br/>"
-        f"/api/v1.0/<end><br/>"
+        f"/api/v1.0/tobs"
     )
 
 # Define what to do when a user hits the /api/v1.0/precipitation route
